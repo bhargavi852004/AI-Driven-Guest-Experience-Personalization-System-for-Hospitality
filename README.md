@@ -15,25 +15,6 @@ This project features an AI-powered dish recommendation system that utilizes XGB
 - **Email Integration**: SMTP for sending booking details and coupon codes.
 - **MongoDb**: For DataBase
 
-## Installation & Setup
-### Prerequisites
-Ensure you have:
-- Python (>=3.8)
-- Install dependencies:
-  ```sh
-  pip install -r requirements.txt
-  ```
-
-### Running the Project
- 1. Train the XGBoost model (if needed):
-   ```sh
-   python xg_boost_model.py
-   ```
-2. Run the Streamlit app:
-   ```sh
-   streamlit run Interface.py
-   ```
-
 ### Output Samples
 #### User Interface of the Streamlit App
 ![User_Interface](https://github.com/user-attachments/assets/deee396c-09da-45ed-8719-9d5f8843f041)
