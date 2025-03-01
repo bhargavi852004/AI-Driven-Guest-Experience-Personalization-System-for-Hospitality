@@ -1,20 +1,4 @@
 
-# Dish Recommendation System with Email Notification
-
-## Overview
-This project features an AI-powered dish recommendation system that utilizes XGBoost for predictive analysis based on customer data. Additionally, a user-friendly interface is developed using Streamlit, enabling customers to receive booking details and exclusive coupon codes via email.
-
-## Features
-- **Dish Recommendation**: Predicts and recommends dishes based on customer preferences using an XGBoost model.
-- **Streamlit Interface**: User-friendly UI for customer interaction.
-- **Email Notification**: Sends booking details and coupon codes to customers via email.
-
-## Technology Stack
-- **Machine Learning Model**: XGBoost for dish prediction.
-- **Web Interface**: Streamlit for interactive UI.
-- **Email Integration**: SMTP for sending booking details and coupon codes.
-- **MongoDb**: For DataBase
-
 ### Output Samples
 ### Manager's Review Analysis Interface
 ![Screenshot 2025-03-01 191921](https://github.com/user-attachments/assets/e6971d5d-ab19-4348-a7e6-29b40a9600eb)
