@@ -1,30 +1,84 @@
+# AI-Powered Guest Experience Personalization System for Hospitality
 
-### Output Samples
-### Manager's Review Analysis Interface
-![Screenshot 2025-03-01 191921](https://github.com/user-attachments/assets/e6971d5d-ab19-4348-a7e6-29b40a9600eb)
-### Insights Extracted by Manager based on his query and also a Wordcloud of frequently repeated words in Reviews along with a download option for Manager to download Insights of reviews
-![Screenshot 2025-03-01 192018](https://github.com/user-attachments/assets/87f638e6-3a04-40c1-acce-015eea4dc995)
-### Customer Review Submission Interface
-![Screenshot 2025-03-01 192250](https://github.com/user-attachments/assets/de67197b-ceb0-4a0f-8ec5-e651065aa8a3)
+## Project Overview
+This project develops an **AI-driven system** to enhance hospitality guest experiences using **Large Language Models (LLMs)** like OpenAI GPT and Meta LLaMA. The system analyzes guest feedback, monitors sentiment trends, and dynamically personalizes recommendations for dining, activities, and amenities. By integrating real-time alerts for service teams, the solution ensures adaptive, tailored experiences that evolve with guest preferences during their stay.
 
-### Customer Review Submission Details
-![Screenshot 2025-03-01 192345](https://github.com/user-attachments/assets/66b4f7e6-20ce-4392-8a0b-facd0ac79b7e)
+## Key Outcomes
+- **Personalized recommendations** for dining, activities, and amenities based on guest behavior analysis.
+- **Real-time sentiment monitoring** to proactively address guest feedback.
+- **Increased guest satisfaction** through dynamic personalization.
+- **Automated alerts for staff** to resolve issues and optimize service delivery.
 
-### Storing the Reviews into DataBase and VectorDataBase of Pinecone
-![Screenshot 2025-03-01 193300](https://github.com/user-attachments/assets/88f83957-7e60-4f4a-9dd2-9530f77eb347)
+---
+## Repository Structure & Milestones
+The project is structured into **four milestones**, each building upon the previous one to develop a robust AI-powered guest experience system.
 
-![Screenshot 2025-03-01 193100](https://github.com/user-attachments/assets/0ba3d0d0-dd6e-4e37-8c21-0d28b59c4ca3)
+### **Milestone 1: Building & Evaluating a Machine Learning Model for Favorite Dish Prediction**
+**Objective:** Predict the favorite dish of a customer based on their dining preferences and behavior.
+
+**Key Steps:**
+1. **Data Preparation** – Loaded the dataset, split it into feature extraction, training, and testing sets based on time-based logic.
+2. **Feature Engineering** – Computed customer-level and cuisine-level features.
+3. **Data Integration** – Merged engineered features into the training and testing datasets.
+4. **Encoding & Model Training** – Applied one-hot encoding for categorical data and trained an **XGBoost Classifier** for dish prediction.
+5. **Model Evaluation** – Assessed model performance using accuracy, log loss, and feature importance analysis.
+
+✅ **Outcome:** Developed an XGBoost model for predicting a guest’s favorite dish with **0.18 accuracy**.
+
+---
+
+### **Milestone 2: Guest Preference Modeling & Personalized Recommendation System**
+**Objective:** Develop a recommendation engine to suggest personalized amenities and activities for guests.
+
+**Key Steps:**
+1. **Data Processing** – Cleaned and preprocessed guest booking history, activity participation, and amenity usage data.
+2. **Feature Engineering** – Extracted features like frequency of activity participation, preferred times, and past spending patterns.
+3. **Collaborative Filtering** – Implemented **User-Based & Item-Based Filtering** to recommend relevant activities based on guest preferences.
+4. **Content-Based Filtering** – Used **TF-IDF & Cosine Similarity** to generate activity recommendations based on textual guest preferences.
+5. **Hybrid Recommendation Model** – Combined collaborative and content-based approaches for improved accuracy.
+
+✅ **Outcome:** Built a **personalized recommendation system** that adapts to guest preferences and historical behaviors.
+
+---
+
+### **Milestone 3: Real-Time Sentiment Monitoring & Guest Feedback Analysis**
+**Objective:** Analyze guest reviews using **Natural Language Processing (NLP)** to monitor sentiment trends and generate real-time alerts.
+
+**Key Steps:**
+1. **Data Collection & Preprocessing** – Loaded and cleaned guest feedback data, tokenized text, and removed stopwords.
+2. **Sentiment Analysis** – Used **VADER** for rule-based sentiment scoring and **BERT-based sentiment classification** for deeper insights.
+3. **Trend Monitoring & Insights** – Tracked sentiment over time, identified top positive/negative topics using **TF-IDF & LDA Topic Modeling**.
+4. **Integration with Hospitality System** – Created automated alerts for staff when negative sentiment was detected.
+
+✅ **Outcome:** Implemented **real-time guest sentiment tracking**, allowing proactive issue resolution and improved guest satisfaction.
+
+---
+
+### **Milestone 4: AI-Driven Chatbot for Guest Interaction & Service Requests**
+**Objective:** Develop a chatbot powered by **GPT-4 & LLaMA** to assist guests with queries, booking requests, and recommendations.
+
+**Key Steps:**
+1. **Conversational AI Design** – Defined chatbot intents, responses, and dialogue flows.
+2. **LLM Integration** – Integrated OpenAI GPT & Meta LLaMA models to enhance conversational accuracy.
+3. **Personalization Layer** – Fetched guest preferences in real-time to provide **context-aware responses**.
+4. **Multi-Channel Deployment** – Enabled chatbot interactions through **web, mobile, and voice interfaces**.
+
+✅ **Outcome:** Deployed an **AI-powered guest assistant chatbot**, enhancing user engagement and streamlining service requests.
+
+---
+
+### **Clone the Repository**
+```bash
+git clone https://github.com/bhargavi852004/AI-Powered-Guest-Experience-Personalization-System-for-Hospitality.git
+```
+
+###  **Future Enhancements** 
+- **Improve Model Accuracy**: Experiment with hyperparameter tuning and deep learning models.
+- **Expand Sentiment Monitoring**: Integrate audio sentiment analysis from voice feedback.
+- **Enhance Chatbot Capabilities**: Include multi-language support and voice-based interactions.
+- **Deploy as a SaaS Solution**: Develop an API for seamless hospitality industry integration.
 
 
-
-#### User Interface of the Streamlit App
-![User_Interface](https://github.com/user-attachments/assets/deee396c-09da-45ed-8719-9d5f8843f041)
-#### Displaying of Booking Information at User Interface
-![Booking Info](https://github.com/user-attachments/assets/2f3177b2-b6f9-4361-9635-7a74274deeef)
-#### A Confirmation email that has been automated which contains information about Booking and Coupon Code
-![Email_confirmation](https://github.com/user-attachments/assets/a118c6d3-ebee-4d5e-9bd7-a86122b3761f)
-#### DataBase containing the information of new Booking
-![New_Data DB](https://github.com/user-attachments/assets/2f2471ca-dda3-4780-93af-ede7dde14a58)
-
-
+---
+**🚀 AI-Powered Guest Experience Personalization System – Redefining Hospitality with AI!**
 
