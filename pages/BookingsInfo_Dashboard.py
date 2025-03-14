@@ -6,7 +6,7 @@ import os
 from together import Together
 
 # Set Together AI API Key
-os.environ["TOGETHER_API_KEY"] = "cd798c47738b9e78e43f073081ab4859ff2533b03ab67b1e630849e9037acf49"
+os.environ["TOGETHER_API_KEY"] = ""
 
 # MongoDB connection
 client = MongoClient("mongodb://localhost:27017/")
