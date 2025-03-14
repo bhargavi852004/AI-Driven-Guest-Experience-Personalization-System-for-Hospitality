@@ -17,7 +17,7 @@ This repository contains the source code for a **Luxury Hotel Management System*
 ### **Installation**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/luxury-hotel-management.git
+   git clone https://github.com/bhargavi852004/AI-Powered-Guest-Experience-Personalization-System-for-Hospitality.git
    cd luxury-hotel-management
    ```
 2. Install dependencies:
