@@ -18,8 +18,8 @@ def generate_coupon():
     return "HOTEL" + str(random.randint(1000, 9999))
 
 def send_email(name, email, checkin_date, checkout_date, preferred_cuisine,coupon_code):
-    sender_email = "projectb1885@gmail.com"  # Replace with your email
-    sender_password = "uiqo vaau gpcz uepk"  # Replace with your email password
+    sender_email = ""  # Replace with your email
+    sender_password = ""  # Replace with your email password
     subject = "Hotel Booking Confirmation"
     body = f"""
     Dear {name},
