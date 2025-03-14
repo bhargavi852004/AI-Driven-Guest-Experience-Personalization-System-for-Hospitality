@@ -15,11 +15,11 @@ st.set_page_config(layout="wide")
 
 # ✅ Set API Keys
 if not os.getenv("TOGETHER_API_KEY"):
-    os.environ["TOGETHER_API_KEY"] = "cd798c47738b9e78e43f073081ab4859ff2533b03ab67b1e630849e9037acf49"
+    os.environ["TOGETHER_API_KEY"] = ""
 
 # ✅ Initialize Pinecone
-pc = Pinecone(api_key="pcsk_2VGEWR_GToh8JpFKqZipqezYuym65c5Y1okY3BneJetVqVHE3b1JDvCzQBg5bmmbyHSkJX")
-index = pc.Index(host="hotelreview-778bu11.svc.aped-4627-b74a.pinecone.io")
+pc = Pinecone(api_key="")
+index = pc.Index(host="")
 
 # ✅ Load Data
 @st.cache_data
