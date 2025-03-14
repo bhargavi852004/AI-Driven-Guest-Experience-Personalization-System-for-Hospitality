@@ -12,9 +12,9 @@ import smtplib
 from email.mime.text import MIMEText
 
 # ✅ Set API Keys
-TOGETHER_API_KEY = "cd798c47738b9e78e43f073081ab4859ff2533b03ab67b1e630849e9037acf49"
-PINECONE_API_KEY = "pcsk_2VGEWR_GToh8JpFKqZipqezYuym65c5Y1okY3BneJetVqVHE3b1JDvCzQBg5bmmbyHSkJX"
-PINECONE_HOST = "hotelreview-778bu11.svc.aped-4627-b74a.pinecone.io"
+TOGETHER_API_KEY = ""
+PINECONE_API_KEY = ""
+PINECONE_HOST = ""
 
 # ✅ Initialize Pinecone
 pc = Pinecone(api_key=PINECONE_API_KEY)
@@ -50,9 +50,9 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 def send_email(room_number, review_text, sentiment_score):
-    sender_email = "projectb1885@gmail.com"
-    receiver_email = "22nn1a0599.bhargavi@gmail.com"
-    password = "uiqo vaau gpcz uepk"
+    sender_email = ""
+    receiver_email = ""
+    password = ""
 
     subject = "Negative Review Alert 🚨"
     body = f"Room Number: {room_number}\nReview: {review_text}\nSentiment Score: {sentiment_score}"
