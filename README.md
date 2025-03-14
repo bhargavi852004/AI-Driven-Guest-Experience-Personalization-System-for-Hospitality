@@ -37,7 +37,7 @@ The project is structured into **four milestones**, each building upon the previ
 4. **Content-Based Filtering** – Used **TF-IDF & Cosine Similarity** to generate activity recommendations based on textual guest preferences.
 5. **Hybrid Recommendation Model** – Combined collaborative and content-based approaches for improved accuracy.
 
-✅ **Outcome:** Built a **personalized recommendation system** that adapts to guest preferences and historical behaviors.
+✅ **Outcome:** Built a **Hotel Booking UI with Personalized Recommendations** that adapts to guest preferences and historical behaviors.
 
 ---
 
@@ -53,17 +53,16 @@ The project is structured into **four milestones**, each building upon the previ
 ✅ **Outcome:** Implemented **real-time guest sentiment tracking**, allowing proactive issue resolution and improved guest satisfaction.
 
 ---
+### **Milestone 4: Dashboard Development & Visualization**
 
-### **Milestone 4: AI-Driven Chatbot for Guest Interaction & Service Requests**
-**Objective:** Develop a chatbot powered by **GPT-4 & LLaMA** to assist guests with queries, booking requests, and recommendations.
+**Key Steps:** 
+1.  Created interactive dashboards for customer insights, sentiment analysis, and recommendations.
 
-**Key Steps:**
-1. **Conversational AI Design** – Defined chatbot intents, responses, and dialogue flows.
-2. **LLM Integration** – Integrated OpenAI GPT & Meta LLaMA models to enhance conversational accuracy.
-3. **Personalization Layer** – Fetched guest preferences in real-time to provide **context-aware responses**.
-4. **Multi-Channel Deployment** – Enabled chatbot interactions through **web, mobile, and voice interfaces**.
+2.  Used Together.AI for graph-based visualization of guest behavior patterns.
 
-✅ **Outcome:** Deployed an **AI-powered guest assistant chatbot**, enhancing user engagement and streamlining service requests.
+3.  Provided real-time tracking of service efficiency and guest satisfaction trends.
+
+4.  Integrated all milestones into a seamless, user-friendly visualization interface.
 
 ---
 
