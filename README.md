@@ -27,15 +27,14 @@ The project is structured into **four milestones**, each building upon the previ
 
 ---
 
-### **Milestone 2: Guest Preference Modeling & Personalized Recommendation System**
+### **Milestone 2: Guest Preference Modeling & Personalized Recommendation System along with Booking UI**
 **Objective:** Develop a recommendation engine to suggest personalized amenities and activities for guests.
 
 **Key Steps:**
-1. **Data Processing** – Cleaned and preprocessed guest booking history, activity participation, and amenity usage data.
-2. **Feature Engineering** – Extracted features like frequency of activity participation, preferred times, and past spending patterns.
-3. **Collaborative Filtering** – Implemented **User-Based & Item-Based Filtering** to recommend relevant activities based on guest preferences.
-4. **Content-Based Filtering** – Used **TF-IDF & Cosine Similarity** to generate activity recommendations based on textual guest preferences.
-5. **Hybrid Recommendation Model** – Combined collaborative and content-based approaches for improved accuracy.
+1. Extracted features like frequency of activity participation, preferred times, and past spending patterns.
+2. Implemented **User-Based & Item-Based Filtering** to recommend relevant activities based on guest preferences.
+3. Used **TF-IDF & Cosine Similarity** to generate activity recommendations based on textual guest preferences.
+4. Combined collaborative and content-based approaches for improved accuracy.
 
 ✅ **Outcome:** Built a **Hotel Booking UI with Personalized Recommendations** that adapts to guest preferences and historical behaviors.
 
@@ -45,10 +44,10 @@ The project is structured into **four milestones**, each building upon the previ
 **Objective:** Analyze guest reviews using **Natural Language Processing (NLP)** to monitor sentiment trends and generate real-time alerts.
 
 **Key Steps:**
-1. **Data Collection & Preprocessing** – Loaded and cleaned guest feedback data, tokenized text, and removed stopwords.
-2. **Sentiment Analysis** – Used **VADER** for rule-based sentiment scoring and **BERT-based sentiment classification** for deeper insights.
-3. **Trend Monitoring & Insights** – Tracked sentiment over time, identified top positive/negative topics using **TF-IDF & LDA Topic Modeling**.
-4. **Integration with Hospitality System** – Created automated alerts for staff when negative sentiment was detected.
+1. Loaded and cleaned guest feedback data, tokenized text, and removed stopwords and Created Embeddings and Inserting Embeddings and Metadata into index
+2. Used Sentiment Analysis for rule-based sentiment scoring  for deeper insights.
+3. Tracked sentiment over time, identified top positive/negative topics.
+4. Created automated alerts for Manager when negative sentiment was detected for hospitality.
 
 ✅ **Outcome:** Implemented **real-time guest sentiment tracking**, allowing proactive issue resolution and improved guest satisfaction.
 
@@ -57,14 +56,14 @@ The project is structured into **four milestones**, each building upon the previ
 
 **Key Steps:** 
 1.  Created interactive dashboards for customer insights, sentiment analysis, and recommendations.
-
 2.  Used Together.AI for graph-based visualization of guest behavior patterns.
-
 3.  Provided real-time tracking of service efficiency and guest satisfaction trends.
-
 4.  Integrated all milestones into a seamless, user-friendly visualization interface.
 
+✅ **Outcome:** Created Dashboards for the Hotel Bookings, Hotel Dining Insights, Customer Review Analysis
 ---
+### **pages**
+- Integrated all the User Interfaces using auth.py as a login/signup page making it user friendly for all the customer requirements.
 
 ### **Clone the Repository**
 ```bash
