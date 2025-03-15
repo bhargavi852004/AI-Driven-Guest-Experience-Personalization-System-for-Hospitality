@@ -36,7 +36,7 @@ The project is structured into **four milestones**, each building upon the previ
 3. Used **TF-IDF & Cosine Similarity** to generate activity recommendations based on textual guest preferences.
 4. Combined collaborative and content-based approaches for improved accuracy.
 
-✅ **Outcome:** Built a **Hotel Booking UI with Personalized Recommendations** that adapts to guest preferences and historical behaviors.
+✅ **Output:** Built a **Hotel Booking UI with Personalized Recommendations** that adapts to guest preferences and historical behaviors.
 
 ---
 
@@ -59,8 +59,9 @@ The project is structured into **four milestones**, each building upon the previ
 2.  Used Together.AI for graph-based visualization of guest behavior patterns.
 3.  Provided real-time tracking of service efficiency and guest satisfaction trends.
 4.  Integrated all milestones into a seamless, user-friendly visualization interface.
+   
+✅ **Output:** created Dashboards for the Hotel Bookings, Hotel Dining Insights, Customer Review Analysis
 
-✅ **Outcome:** Created Dashboards for the Hotel Bookings, Hotel Dining Insights, Customer Review Analysis
 ---
 ### **pages**
 - Integrated all the User Interfaces using auth.py as a login/signup page making it user friendly for all the customer requirements.
