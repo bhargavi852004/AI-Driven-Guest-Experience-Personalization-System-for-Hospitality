@@ -1,4 +1,4 @@
-# AI-Powered Guest Experience Personalization System for Hospitality
+# AI-Driven Guest Experience Personalization System for Hospitality
 
 ## Project Overview
 This project develops an **AI-driven system** to enhance hospitality guest experiences using **Large Language Models (LLMs)** like OpenAI GPT and Meta LLaMA. The system analyzes guest feedback, monitors sentiment trends, and dynamically personalizes recommendations for dining, activities, and amenities. By integrating real-time alerts for service teams, the solution ensures adaptive, tailored experiences that evolve with guest preferences during their stay.
@@ -66,11 +66,6 @@ The project is structured into **four milestones**, each building upon the previ
 ### **pages**
 - Integrated all the User Interfaces using auth.py as a login/signup page making it user friendly for all the customer requirements.
 
-### **Clone the Repository**
-```bash
-git clone https://github.com/bhargavi852004/AI-Powered-Guest-Experience-Personalization-System-for-Hospitality.git
-```
-
 ###  **Future Enhancements** 
 - **Improve Model Accuracy**: Experiment with hyperparameter tuning and deep learning models.
 - **Expand Sentiment Monitoring**: Integrate audio sentiment analysis from voice feedback.
@@ -79,5 +74,5 @@ git clone https://github.com/bhargavi852004/AI-Powered-Guest-Experience-Personal
 
 
 ---
-**🚀 AI-Powered Guest Experience Personalization System – Redefining Hospitality with AI!**
+**🚀 AI-Driven Guest Experience Personalization System – Redefining Hospitality with AI!**
 
