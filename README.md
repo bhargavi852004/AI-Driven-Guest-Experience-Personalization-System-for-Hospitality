@@ -74,5 +74,5 @@ The project is structured into **four milestones**, each building upon the previ
 
 
 ---
-**🚀 AI-Driven Guest Experience Personalization System – Redefining Hospitality with AI!**
+**🚀 AI-Driven Guest Experience Personalization System for Hospitality – Redefining Hospitality with AI!**
 
